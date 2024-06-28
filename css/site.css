@@ -1,20 +1,23 @@
+body {
+    background-color: orange;
+}
 header{
-	background-color: lightpink;
+	background-color: ;
 	height: 250px;
 }
 nav,aside{
 	width: 20%;
-	background-color: lavender;
+	background-color: lime;
 	float: left;
 }
 main{
 	width: 60%;
-	background-color: skyblue;
+	background-color: limegreen;
 	float: left;
 }
 footer{
 	clear: both;
-	background-color: lightpink;
+	background-color: lemonchiffon;
 	height: 250px;
 }
 h2{
@@ -121,4 +124,16 @@ a{
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+.mc {
+    width: 32%;
+    display: inline-block;
+    margin: 5px;
+}
+footer {
+    height: 100%;
+    background-color: DarkOrange;
+    font-family: cursive;
+    font-weight: 700;
+    clear: both;
 }
